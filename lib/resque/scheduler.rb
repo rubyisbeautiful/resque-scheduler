@@ -6,7 +6,6 @@ module Resque
 
   class Scheduler
 
-    extend Resque::Helpers
     extend Resque::SchedulerLocking
 
     class << self
